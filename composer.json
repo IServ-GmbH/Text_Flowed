@@ -11,24 +11,14 @@
             "role": "lead"
         }
     ],
-    "version": "2.0.4",
+    "version": "103",
     "time": "2019-12-15",
-    "repositories": [
-        {
-            "type": "pear",
-            "url": "https://pear.horde.org"
-        }
-    ],
     "require": {
-        "php": "^5.3 || ^7",
-        "pear-pear.horde.org/Horde_Util": "^2"
+        "php": ">=7.3",
+        "horde/util": "103"
     },
     "suggest": {
-        "pear-pear.horde.org/Horde_Test": "^2.1"
-    },
-    "replace": {
-        "pear-pear.horde.org/Horde_Text_Flowed": "2.*",
-        "pear-horde/Horde_Text_Flowed": "2.*"
+        "horde/test": "^2.1"
     },
     "autoload": {
         "psr-0": {
