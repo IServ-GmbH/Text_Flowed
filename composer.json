@@ -11,11 +11,9 @@
             "role": "lead"
         }
     ],
-    "version": "103",
-    "time": "2019-12-15",
     "require": {
         "php": ">=7.3",
-        "horde/util": "103"
+        "horde/util": ">=106"
     },
     "suggest": {
         "horde/test": "^2.1"
